@@ -5,6 +5,10 @@ This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed
 ## Personal Opinion Disclaimer
 The views and opinions expressed are **my own and do not reflect the official policy or position of my employer (McDonald's).**
 
+**Automating interactions with websites, especially those involving user accounts and transactions, can raise ethical and legal concerns. Always ensure that your automation activities comply with the terms of service of the website and relevant laws. Additionally, consider the ethical implications of automating tasks that interact with user data and privacy.**
+
+This project is provided solely for **illustrative purposes** to facilitate a deeper understanding of **agent-based systems**. It is intended strictly for **testing** and **educational use** only and shall not be employed for any commercial or production purposes.
+
 ## Why should we care about AI Agents? Isn't this just another tech buzz?
 
 Actually, no - this feels like a real turning point.
