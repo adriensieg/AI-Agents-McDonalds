@@ -5,10 +5,14 @@ This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed
 ## Why should we care about AI Agents? Isn't this just another tech buzz?
 
 Actually, no - this feels like a real turning point.
-**AI mode is changing everything**. **Google isn't just a search engine anymore**; it's evolving into something totally different. Instead of **showing you a list of links**, it's now generating these AI-crafted "mini-websites" right on the results page, built instantly to answer your question. So guess what? Fewer people are clicking through to your actual site. They're getting what they need straight from an AI's version of your content.
-That's a big deal. It means we need to rethink how we create and structure our content. It's no longer just about keywords and SEO - it's about making your content understandable to large language models. That's where MCPs come in (Model-Consumable Pages). These are built so AI agents can easily digest and use your data without loading your full site.
+
+**AI mode is changing everything**. **Google isn't just a search engine anymore**; it's evolving into something totally different. Instead of **showing you a list of links**, it's now generating these AI-crafted "mini-websites" right on the results page, built instantly to answer your question. So guess what? **Fewer people are clicking through to your actual site**. **They're getting what they need straight from an AI's version of your content.**
+
+That's a big deal. It means we need to rethink how we create and structure our content. It's no longer just about keywords and SEO - **it's about making your content understandable to large language models**. That's where MCPs come in (Model-Consumable Pages). These are built so **AI agents can easily digest and use your data without loading your full site**.
+
 Is this the future of the web? Honestly, I think it could be. Time will tell, but I'm feeling pretty hopeful.
-Take something like mcdonalds.com - people might not visit it directly anymore. Instead, the AI just pulls what it needs from the site and gives users the answers. No clicks, no pageviews - just machine-to-machine interaction.
+
+Take something like mcdonalds.com or ubereats.com - **people might not visit it directly anymore**. Instead, the AI **just pulls what it needs from the site and gives users the answers**. **No clicks, no pageviews - just machine-to-machine interaction.**
 
 ChatGPT is officially clocking more site visits than Wikipedia in the US - https://sherwood.news/tech/chatgpt-is-officially-clocking-more-site-visits-than-wikipedia-in-the-us/
 ![image](https://github.com/user-attachments/assets/ca71eed9-bd52-4394-aab5-b44a67d324cf)
