@@ -62,6 +62,14 @@ pip install -r requirements.txt
 - **Base Agent** (`base_agent.py`): Contains the BaseA2AAgent class, which is the base class for all agents.
 - **User Proxy Agent** (`user_proxy_agent.py`): Contains the UserProxyAgent class.
 - **Order Agent** (`order_agent.py`): Contains the OrderAgent class
+- **Web Automation Agent** (`web_automation_agent.py`):Contains the WebAutomationAgent class.
+- **Menu Understanding Agent** (`menu_understanding_agent.py`): Contains the MenuUnderstandingAgent class.
+- **Checkout Agent** (`checkout_agent.py`): Contains the CheckoutAgent class.
+- **Scheduler Agent** (`scheduler_agent.py`): Contains the SchedulerAgent class.
+- **Logger Agent** (`logger_agent.py`): Contains the LoggerAgent class.
+
+- **Orchestrator** (`orchestrator.py`): Contains the McDonaldsA2AOrchestrator class.
+- **Main Script** (`main.py`): Contains the main function to run the system.
 
 ## The Architecture
 ```mermaid
