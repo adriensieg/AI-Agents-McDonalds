@@ -1,6 +1,58 @@
-# AI-Agents-McDonalds
+# McDonald's A2A Ordering System
 How I Built an AI Agent to Order McDonald's for Me Every Wednesday
+This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed to automate the ordering process using various specialized agents.
 
+## Project Structure
+```
+/mcdonalds_a2a_ordering_system
+│
+├── /src
+│   ├── __init__.py
+│   ├── main.py
+│   ├── agents
+│   │   ├── __init__.py
+│   │   ├── base_agent.py
+│   │   ├── user_proxy_agent.py
+│   │   ├── order_agent.py
+│   │   ├── web_automation_agent.py
+│   │   ├── menu_understanding_agent.py
+│   │   ├── checkout_agent.py
+│   │   ├── scheduler_agent.py
+│   │   └── logger_agent.py
+│   ├── orchestrator.py
+│   └── a2a
+│       ├── __init__.py
+│       └── types.py
+├── requirements.txt
+└── README.md
+```
+
+## Create a virtual environment:
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+## Requirements
+
+**requirements.txt**
+```
+google-genai
+google-adk
+asyncio
+```
+
+```
+pip install -r requirements.txt
+```
+
+# Explanations
+
+## Modular Code Breakdown
+- **Base Agent** (`base_agent.py`): Contains the BaseA2AAgent class, which is the base class for all agents.
+
+## The Architecture
 ```mermaid
 graph TB
     User[User/Scheduler] --> UserProxy[UserProxy Agent<br/>Port 9001]
