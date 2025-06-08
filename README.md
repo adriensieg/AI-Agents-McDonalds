@@ -2,6 +2,15 @@
 How I Built an AI Agent to Order McDonald's for Me Every Wednesday
 This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed to automate the ordering process using various specialized agents.
 
+The system will start and initialize all agents. You can place a manual order by calling the process_user_order method with a string input, such as:
+
+```python
+result = await orchestrator.process_user_order("Get me something spicy for lunch")
+print(f"Order result: {result}")
+```
+
+The system is also set up to automatically place orders every Wednesday at noon.
+
 ## Project Structure
 ```
 /mcdonalds_a2a_ordering_system
