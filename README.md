@@ -2,13 +2,27 @@
 How I Built an AI Agent to Order McDonald's for Me Every Wednesday
 This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed to automate the ordering process using various specialized agents.
 
+## Why should we care about AI Agents? Isn't this just another tech buzz?
+
+Actually, no - this feels like a real turning point.
+**AI mode is changing everything**. **Google isn't just a search engine anymore**; it's evolving into something totally different. Instead of **showing you a list of links**, it's now generating these AI-crafted "mini-websites" right on the results page, built instantly to answer your question. So guess what? Fewer people are clicking through to your actual site. They're getting what they need straight from an AI's version of your content.
+That's a big deal. It means we need to rethink how we create and structure our content. It's no longer just about keywords and SEO - it's about making your content understandable to large language models. That's where MCPs come in (Model-Consumable Pages). These are built so AI agents can easily digest and use your data without loading your full site.
+Is this the future of the web? Honestly, I think it could be. Time will tell, but I'm feeling pretty hopeful.
+Take something like mcdonalds.com - people might not visit it directly anymore. Instead, the AI just pulls what it needs from the site and gives users the answers. No clicks, no pageviews - just machine-to-machine interaction.
+
+ChatGPT is officially clocking more site visits than Wikipedia in the US - https://sherwood.news/tech/chatgpt-is-officially-clocking-more-site-visits-than-wikipedia-in-the-us/
+![image](https://github.com/user-attachments/assets/ca71eed9-bd52-4394-aab5-b44a67d324cf)
+
+In the US - OpenAI’s chatbot has now overtaken the free online encyclopedia
+https://www.michelegargiulo.com/blog/chatgpt-surpasses-wikipedia-traffic
+
+## The Solution
 The system will start and initialize all agents. You can place a manual order by calling the process_user_order method with a string input, such as:
 
 ```python
 result = await orchestrator.process_user_order("Get me something spicy for lunch")
 print(f"Order result: {result}")
 ```
-
 The system is also set up to automatically place orders every Wednesday at noon.
 
 ## Project Structure
@@ -260,3 +274,19 @@ sequenceDiagram
         LoggerAgent->>LoggerAgent: Generate analytics dashboard
     end
 ```
+
+# Bibliography
+- `OVERALL`: **Introducing Agent2Agent (A2A): Understanding Google’s Protocol for AI Collaboration** > https://priyalwalpita.medium.com/introducing-agent2agent-a2a-understanding-googles-protocol-for-ai-collaboration-10a46155c458
+- `OVERALL`: **Agent2Agent: A practical guide to build agents** > https://composio.dev/blog/agent2agent-a-practical-guide-to-build-agents/
+- `OVERALL`: **Inside Google’s Agent2Agent (A2A) Protocol: Teaching AI Agents to Talk to Each Other** > https://towardsdatascience.com/inside-googles-agent2agent-a2a-protocol-teaching-ai-agents-to-talk-to-each-other/
+- `SECURITY`: **Secure A2A Authentication with Auth0 and Google Cloud** > https://auth0.com/blog/auth0-google-a2a/
+- `SECURITY`: **The future of AI agents—and why OAuth must evolve** > https://techcommunity.microsoft.com/blog/microsoft-entra-blog/the-future-of-ai-agents%E2%80%94and-why-oauth-must-evolve/3827391
+- `SECURITY`: **Google A2A protocol authentication methods explained: Securing AI agent communication** > https://www.byteplus.com/en/topic/551189?title=google-a2a-protocol-authentication-methods-explained-securing-ai-agent-communication
+- `SECURITY`: **Google A2A protocol OAuth authentication: A complete guide** > https://www.byteplus.com/en/topic/551471?title=google-a2a-protocol-oauth-authentication-a-complete-guide
+- `SECURITY`: **Google A2A protocol authentication methods explained: Securing AI agent communication** > https://www.byteplus.com/en/topic/551189?title=google-a2a-protocol-authentication-methods-explained-securing-ai-agent-communication
+- `SECURITY`: **Delegated User Authorization for Agent2Agent Servers** > https://github.com/google-a2a/A2A/issues/19
+- `SECURITY`: **Threat Modeling Google's A2A Protocol with the MAESTRO Framework** > https://cloudsecurityalliance.org/blog/2025/04/30/threat-modeling-google-s-a2a-protocol-with-the-maestro-framework
+- `SECURITY`: **Security Analysis: Potential AI Agent Hijacking via MCP and A2A Protocol Insights** > https://medium.com/@foraisec/security-analysis-potential-ai-agent-hijacking-via-mcp-and-a2a-protocol-insights-cd1ec5e6045f
+- `SECURITY`: **Deep Dive MCP and A2A Attack Vectors for AI Agents** > https://www.solo.io/blog/deep-dive-mcp-and-a2a-attack-vectors-for-ai-agents
+- `SECURITY`: **OAuth 2.0 and  OpenID Connect: The Professional Guide** > https://assets.ctfassets.net/2ntc334xpx65/7D1vaJ4Q908Th0iklEkFWs/d4a6ebeb2814000214da88a224c9b2f4/OAuth_2.0_and_OpenID_Connect__The_Professional_Guide_Feb6.pdf
+- `PREDICTION`: **I Stopped Building Frontends. Now I Use MCP Servers to Let AI Run My Apps** > https://medium.com/javascript-in-plain-english/i-stopped-building-frontends-now-i-use-mcp-servers-to-let-ai-run-my-apps-178b0d7107ca
