@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 ## Modular Code Breakdown
 - **Base Agent** (`base_agent.py`): Contains the BaseA2AAgent class, which is the base class for all agents.
+- **User Proxy Agent** (`user_proxy_agent.py`): Contains the UserProxyAgent class.
 
 ## The Architecture
 ```mermaid
