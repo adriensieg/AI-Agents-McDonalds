@@ -2,6 +2,9 @@
 How I Built an AI Agent to Order McDonald's for Me Every Wednesday
 This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed to automate the ordering process using various specialized agents.
 
+## Personal Opinion Disclaimer
+The views and opinions expressed are **my own and do not reflect the official policy or position of my employer (McDonald's).**
+
 ## Why should we care about AI Agents? Isn't this just another tech buzz?
 
 Actually, no - this feels like a real turning point.
@@ -15,7 +18,8 @@ Is this the future of the web? Honestly, I think it could be. Time will tell, bu
 Take something like mcdonalds.com or ubereats.com - **people might not visit it directly anymore**. Instead, the AI **just pulls what it needs from the site and gives users the answers**. **No clicks, no pageviews - just machine-to-machine interaction.**
 
 ChatGPT is officially clocking more site visits than Wikipedia in the US - https://sherwood.news/tech/chatgpt-is-officially-clocking-more-site-visits-than-wikipedia-in-the-us/
-![image](https://github.com/user-attachments/assets/ca71eed9-bd52-4394-aab5-b44a67d324cf)
+
+<img src="https://github.com/user-attachments/assets/ca71eed9-bd52-4394-aab5-b44a67d324cf" width="50%" height="50%">
 
 In the US - OpenAI’s chatbot has now overtaken the free online encyclopedia
 https://www.michelegargiulo.com/blog/chatgpt-surpasses-wikipedia-traffic
