@@ -2,6 +2,8 @@
 How I Built an AI Agent to Order McDonald's for Me Every Wednesday
 This project is an Agent-to-Agent (A2A) ordering system for McDonald's, designed to automate the ordering process using various specialized agents.
 
+https://medium.com/@adriensieg/how-i-built-an-ai-agent-to-order-mcdonalds-for-me-every-wednesday-2814fabb17f7
+
 ## Personal Opinion Disclaimer
 The views and opinions expressed are **my own and do not reflect the official policy or position of my employer (McDonald's).**
 
